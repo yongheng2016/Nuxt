@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-export default {
+export default {  //校验动态路由参数的有效性。 404页
   validate({params}) {
       console.log(params)
       return /^\d+$/.test(params.id)

@@ -44,5 +44,12 @@ module.exports = {
         })
       }
     }
+  },
+  generate: {
+    routes: [
+      '/news/123',
+      '/news/456',
+      '/news/asyncData'
+    ]
   }
 }

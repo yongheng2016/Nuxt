@@ -31,6 +31,12 @@
         <li>
           <nuxt-link :to="{name: 'news-asyncData'}">asyncData</nuxt-link>
         </li>
+        <li>
+          <nuxt-link :to="{name: 'request-test'}">request-test</nuxt-link>
+        </li>
+        <li>
+          <p>test缓存22222222222222</p>
+        </li>
       </ul>
     
   </section>
